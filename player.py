@@ -20,6 +20,8 @@ df= pd.read_csv('player.csv')
 df.drop('Player', axis= 'columns',inplace=True)
 df.drop('Team', axis= 'columns',inplace=True)
 df.drop('Role', axis= 'columns',inplace=True)
+df.drop('Runs', axis= 'columns',inplace=True)
+df.drop('Wickets', axis= 'columns',inplace=True)
 df['Fitness']=df['Fitness'].apply(lambda x: 1 if x=='Fit'  else 0)
 x= df.drop('FantasyScore',axis= 'columns')
 y= df['FantasyScore']
