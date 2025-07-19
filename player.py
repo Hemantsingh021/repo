@@ -6,14 +6,14 @@ st.markdown(
     """
     <style>
     .stApp {
-        background-color: lightblue;
+        background-color: brown;
     }
     </style>
     """,
     unsafe_allow_html=True
 )
 st.markdown(
-    "<h1 style='text-align: center; color: #003366; font-size: 3em;'>🏏 Player Performance Prediction App 🏆</h1>",
+    "<h1 style='text-align: center; color:white; font-size: 3em;'>🏏 Player Performance Prediction App 🏆</h1>",
     unsafe_allow_html=True
 )
 df= pd.read_csv('player.csv')
